@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-container {
+  background: #311b40;
+}
+.landing-container .logo span {
+  color: #f6b133;
+  font-size: 15px;
+}/*# sourceMappingURL=App.css.map */
