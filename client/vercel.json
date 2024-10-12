@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/"
+    },
+    {
+      "source": "/home",
+      "destination": "/home"
+    },
+    {
+      "source": "/pi-wallet",
+      "destination": "/pi-wallet"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
