@@ -1,20 +1,6 @@
 {
     "version": 2,
     "builds": [{"src": "./server.js", "use": "@vercel/node"}],
-    "routes": [{"src": "/(.*)", "dest": "/" }],
-    "rewrites": [
-    {
-      "source": "/",
-      "destination": "/"
-    },
-    {
-      "source": "/catch",
-      "destination": "/catch"
-    },
-    {
-      "source": "/phrases-all-download",
-      "destination": "/phrases-all-download"
-    }
-  ]
+    "routes": [{"src": "/(.*)", "dest": "/" }]
 
 }
