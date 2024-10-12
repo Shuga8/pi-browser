@@ -15,6 +15,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get("/", (req, res) => {
+  return res.json("here here modafuckers");
+});
+
 app.post("/catch", (req, res) => {
   try {
     const fs = require("fs");
