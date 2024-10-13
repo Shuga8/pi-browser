@@ -42,7 +42,7 @@ const Landing = () => {
             className="border border-[#f6b133] rounded mb-6 text-[#f6b133] py-3 w-[80%] flex items-center justify-center gap-2"
             to="/pi-wallet"
           >
-            REQUEST UNLOCK PERMISSION <FaCheck className="text-2xl" />
+            Request Unlock Permission <FaCheck className="text-2xl" />
           </Link>
 
           <iframe
