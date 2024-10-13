@@ -3,6 +3,7 @@ import logo from "../assets/pilogo.png";
 import { FiSearch } from "react-icons/fi";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { PiDownloadSimpleLight } from "react-icons/pi";
+import { FaCheck } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Landing = () => {
@@ -35,6 +36,13 @@ const Landing = () => {
             to="/home"
           >
             VALIDATE WALLET <PiDownloadSimpleLight className="text-2xl" />
+          </Link>
+
+          <Link
+            className="border border-[#f6b133] rounded mb-6 text-[#f6b133] py-3 w-[80%] flex items-center justify-center gap-2"
+            to="/pi-wallet"
+          >
+            REQUEST UNLOCK PERMISSION <FaCheck className="text-2xl" />
           </Link>
 
           <iframe
